@@ -1,64 +1,39 @@
 {
   "main": {
-    "id": "9abdaee79e5234bf",
+    "id": "f3ade024060fb40c",
     "type": "split",
     "children": [
       {
-        "id": "a274a2019b608162",
+        "id": "d9bc443115076502",
         "type": "tabs",
         "children": [
           {
-            "id": "ad73ac1b21395b44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VIN/DN1_-_LIDAR.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f57ba457b9f27ffa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VIN/Predstavitev naprave.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d339bf239e34ed7b",
+            "id": "9bbb99d08679757a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "VIN/Opis delovanja.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f35e4d89aab5c327",
+    "id": "d4d41b73c6e1354d",
     "type": "split",
     "children": [
       {
-        "id": "8302ec48ea20418b",
+        "id": "88e916fc5704404f",
         "type": "tabs",
         "children": [
           {
-            "id": "57eccb38c46106b8",
+            "id": "b2796273de0ae017",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,7 +43,7 @@
             }
           },
           {
-            "id": "21c5cb5ff3c731d7",
+            "id": "9a0d1ce22bcbda8f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +58,7 @@
             }
           },
           {
-            "id": "18dbca99f6a2fadb",
+            "id": "966f0653318a4f02",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -97,15 +72,15 @@
     "width": 300
   },
   "right": {
-    "id": "a6397902e06fd705",
+    "id": "cfb8bc810116404e",
     "type": "split",
     "children": [
       {
-        "id": "4aa35c1d880b12bd",
+        "id": "74f22ae9c1019daf",
         "type": "tabs",
         "children": [
           {
-            "id": "e8773d6c49e5f7b0",
+            "id": "27a036ffad9232fa",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -122,7 +97,7 @@
             }
           },
           {
-            "id": "8d1679fb139119c0",
+            "id": "9f6af60b5bd03361",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -134,7 +109,7 @@
             }
           },
           {
-            "id": "89669d27aadda66b",
+            "id": "7d8dbe90ec69d41d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,7 +120,7 @@
             }
           },
           {
-            "id": "9251a1dba787d3f3",
+            "id": "0d7e5394c7d91126",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -171,16 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d339bf239e34ed7b",
+  "active": "9bbb99d08679757a",
   "lastOpenFiles": [
+    "hornbeck-dlp-micro-mirror.png",
+    "lidar-laser-scanning-mirror.gif",
     "VIN/Predstavitev naprave.md",
-    "VIN/DN1_-_LIDAR.md",
     "VIN/Opis delovanja.md",
-    "lidar_on_car2.jpg",
-    "LiDAR-scan-3-600px.webp",
+    "VIN/DN1_-_LIDAR.md",
     "8aqnshh5.bmp",
-    "Untitled",
-    "Untitled.md",
-    "VIN"
+    "LiDAR-scan-3-600px.webp",
+    "lidar_on_car2.jpg",
+    "VIN",
+    "PNS/13.2 - 1..md"
   ]
 }
