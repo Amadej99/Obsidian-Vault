@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VIN/Opis delovanja.md",
+                "file": "VIN/Predstavitev naprave.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VIN/Opis delovanja.md",
+                "file": "VIN/Predstavitev naprave.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VIN/Opis delovanja.md",
+                "file": "VIN/Predstavitev naprave.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VIN/Opis delovanja.md"
+                "file": "VIN/Predstavitev naprave.md"
               }
             }
           }
@@ -148,14 +148,17 @@
   },
   "active": "9bbb99d08679757a",
   "lastOpenFiles": [
-    "hornbeck-dlp-micro-mirror.png",
-    "lidar-laser-scanning-mirror.gif",
-    "VIN/Predstavitev naprave.md",
+    "VIN/DN1 - LIDAR.md",
     "VIN/Opis delovanja.md",
+    "VIN/images/8aqnshh5.bmp",
+    "VIN/Arhitektura in tehnologije.md",
+    "VIN/Primeri uporabe.md",
+    "VIN/images/hornbeck-dlp-micro-mirror.png",
+    "VIN/images/lidar-laser-scanning-mirror.gif",
+    "VIN/Predstavitev naprave.md",
     "VIN/DN1_-_LIDAR.md",
-    "8aqnshh5.bmp",
-    "LiDAR-scan-3-600px.webp",
-    "lidar_on_car2.jpg",
+    "VIN/images/LiDAR-scan-3-600px.webp",
+    "VIN/images/lidar_on_car2.jpg",
     "VIN",
     "PNS/13.2 - 1..md"
   ]
