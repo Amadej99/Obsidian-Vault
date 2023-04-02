@@ -4,6 +4,8 @@ LIDAR (Light Detection and Ranging) je tehnologija oddaljenega zaznavanja, ki up
 
 ![[LiDAR-scan-3-600px.webp]]
 
+![[51f9lyDUTdL.jpg]]
+
 ### Analogija
 
 Če se ozremo okoli sebe, dejansko vidimo 3D barvni "zemljevid" okolice, ki so ga naši možgani zgradili več ali manj "in real time" z uporabo žarkov svetlobe, ki jih je zajelo naše oko. 

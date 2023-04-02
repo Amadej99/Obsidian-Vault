@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d9bc443115076502",
+        "id": "2fa9fab445696a83",
         "type": "tabs",
         "children": [
           {
-            "id": "9bbb99d08679757a",
+            "id": "161aeb7b4dff3c48",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VIN/Arhitektura in tehnologije.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "cfb8bc810116404e",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VIN/Arhitektura in tehnologije.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VIN/Arhitektura in tehnologije.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "VIN/Arhitektura in tehnologije.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,16 +138,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9bbb99d08679757a",
+  "active": "b2796273de0ae017",
   "lastOpenFiles": [
-    "VIN/Opis delovanja.md",
-    "hornbeck-dlp-micro-mirror.png",
-    "lidar-laser-scanning-mirror.gif",
+    "VIN/Apliciranje LiDAR sistema.md",
+    "VIN/images/what-is-a-lidar-part-1-9.jpg",
+    "VIN/images/lidar_on_car2.jpg",
+    "VIN/images/lidar-laser-scanning-mirror.gif",
+    "VIN/images/hornbeck-dlp-micro-mirror.png",
+    "VIN/images/d5f2c0bc53c2419d850b1b979662efe5.jpg",
+    "VIN/images/LiDAR-scan-3-600px.webp",
+    "VIN/images/8aqnshh5.bmp",
+    "VIN/images/51f9lyDUTdL.jpg",
+    "VIN/Povezava.md",
+    "VIN/FINAL.md",
+    "VIN/Primeri uporabe.md",
+    "VIN/Arhitektura in tehnologije.md",
+    "VIN/Aplikacija LiDAR sistemov.md",
+    "VIN/images/D-flipflop-counter.png",
+    "Pasted image 20230402201907.png",
+    "VIN/DN1 - LIDAR.md",
     "VIN/Predstavitev naprave.md",
+    "VIN/Opis delovanja.md",
+    "VIN/images/bistatic_measuring.png.md",
     "VIN/DN1_-_LIDAR.md",
-    "8aqnshh5.bmp",
-    "LiDAR-scan-3-600px.webp",
-    "lidar_on_car2.jpg",
     "VIN",
     "PNS/13.2 - 1..md"
   ]
