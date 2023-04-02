@@ -1,3 +1,9 @@
+# LIDAR
+
+Amadej Milićev
+Irinej Slapal
+Gašper Rifel
+
 # Uvod
 
 LIDAR (Light Detection and Ranging) je tehnologija oddaljenega zaznavanja, ki uporablja lasersko svetlobo za merjenje razdalj in ustvarjanje 3D kart terena. Osnovno delovno načelo LIDAR-ja je podobno kot pri radarski tehnologiji, vendar namesto radijskih valov uporablja lasersko svetlobo za zaznavanje predmetov in njihove razdalje.
