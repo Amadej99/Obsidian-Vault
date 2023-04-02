@@ -35,11 +35,6 @@ Sistem LIDAR je sestavljen iz laserja, skenerja in detektorja.
 
 Kot laser se v LIDAR sistemu uporablja polprevodniški laser oz. laserska dioda. Podobni laserji se uporabljajo v laserskih tiskalnikih ali CD/DVD predvajalnikih le, da je laser, ki se uporablja v LIDAR sistemih bistveno močnejši. Različno namenski LIDAR sistemi oddajajo različno svetlobo.
 
-- V avtomobilski industriji se uporablja skoraj infrardeči laser valovne dolžine 900 - 1100 nm
-- Podvodni sistemi uporabljajo zeleni laser valovne dolžine 530 nm
-  Splošno rečeno uporabljajo LIDAR sistemi z večjim dometom laserske žarke višje valovne dolžine.
-  Tako npr. ima najnovejši avtomobil laser s valovno dolžino 1550 nm, skenira pa lahko do razdalje 200m, v primerjavi z laserjem, ki deluje pri 905 nm, skenira pa "samo" do 40m.
-
 Detektor v LIDAR sistemu je neke vrste fotoelektrična celica, ki je oblikovana za maksimalno občutljivost na svetlobo take valovne dožine kot jo uporablja laser. Za različne vrste LIDAR sistemov se uporabljajo različne vrste detektorjev. Sistemi s kratkim dometom uporabljajo preproste silicijeve fotodiode. Sistemi z dolgim dometom uporabljajo t.i. avalanche fotodiode (APD), ki delujejo podobno kot Geigerjev števec in spremenijo foton svetlobe v plaz elektronov, ki ga lahko izmerimo.
 
 Skener je tipično sestavljen iz ogledala, ki usmerja laserski žarek in s tem omogoča pokritje širokega območja. S skenerjem upravlja motor, ki rotira ogledalo s konstantno hitrostjo oz. z specifičnim vzorcem. Ko se ogledalo rotira usmerja žarek v različna območja okolja. Nekateri LIDAR sistemi uporabljajo več skenerjev oz. ogledal, da pokrijejo še širše območje ali pa povečajo gostoto točk. S tem tudi izboljšajo natančnost meritev.
@@ -105,10 +100,6 @@ Za računanje razdalje se uporablja vezje, v LiDAR sistemih je to TDC vezje, ki 
 
 Števec konstantno meče ven točke razdalij, iz katerih se sestavlja "point cloud", da se lahko kreira 3D reprezentacija okolice.
 
-##### Prenos podatkov
-
-Za prenos "point clouda" do CPU-ja na računalniku ali namenskem krmilniku, kjer so podatki procesirani in prikazani, se uporabljajo različni protokoli. Najpogosteje so uporabljeni Ethernet, CAN, in USB
-
 #### Konfiguracija LiDAR-ja ![right](/VIN/images/bistatic_conf.png)
 
 ##### Bistatična
@@ -120,9 +111,9 @@ $c\;...\;koeficient\;hitrosti\;svetlobe$
 $t_{1}\;...\;čas\;potovanja\;svetlobe\;od\;oddajnika\;do\;tarče$
 $t_{2}\;...\;čas\;potovanja\;svetlobe\;od\;tarče\;do\;sprejemnika$
 
-![right](/VIN/images/monostatic_byme.png)
 
-##### Monostatična
+
+##### Monostatična ![right](/VIN/images/monostatic_byme.png)
 
 Samostojna optična naprava, ki hkrati oddaja in sprejema laserske žarke.
 Merjenje razdalje se računa z časovnim intervalom, v katerem žarek oddajnika potuje do tarče, se od nje odbije in ponovi isto pot do sprejemnika.
@@ -158,6 +149,33 @@ V večini primerov se senzor priključi na različne platforme in programska oro
 Najpogosteje je uporabljen standardni USB vmesnik, ki z naloženimi ustreznimi gonilniki omogoča preprosto in zanesljivo povezavo z napravo. Pri USB povezavi, uporabimo virtualni COM port, ki ga ustvari operacijski sistem. Nato napišemo kodo, s katero prek USB povezave pošiljamo in sprejemamo podatke senzorja.
 
 Za programsko povezavo se uporabljajo knjižnice, ki so bile razvite za delo z Lidar senzorjem. Obstajajo razne knjižnice za različne programske jezike, kot so Python, C++, C, java, MATLAB itd. Te omogočajo preprosto uporabo senzorja z predhodno določenimi funkcijami, vključenimi v knjižnico.
+
+# LiDAR aplikacije:
+Spekter za aplikacij z LiDAR-jem je ekstremno širok, od splošnih, do zelo specifičnih implementacij. Najbolj znane so:
+
+##### Avtonomna vozila![right](images/ai-cars.png)
+Najpogosteje se uporablja v implementaciji s kamero za informacijo o globini.
+
+</br>
+</br>
+</br>
+</br>
+
+##### Mapiranje terena
+LiDAR sistem je nameščen na letalo in meri višinsko razgibanost površja.
+Z upoštevanjem šuma, ki ga pri meritvah povzročajo drevesa in ostala vegetacija, je možno meriti višino dreves in gozdno površino.
+![[images/Pasted image 20230402212629.png]]
+
+Mapiranje morskega dna. ![right](images/sea-floor.png)
+Uporabljeni so laserski žarki zelenega spektra svetlobe (532nm), saj svetloba te valovne dolžine potuje najdlje v vodi. Tukaj je natančnost odvisna predvsem od čistoče in umirjenosti vode.
+
+
+##### Merjenje delcev v zraku
+Pridobivanje informacij o onesnaženju zraka, z analizo razpršitve odboja svetlobe, ko žarek zadane delce v zraku. Z meritvami intenzivnosti odbitega žarka lahko ugotovimo velikost, obliko in koncentracijo delcev v zraku.
+
+
+
+
 
 # Zaključek
 

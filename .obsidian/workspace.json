@@ -1,33 +1,19 @@
 {
   "main": {
-    "id": "f3ade024060fb40c",
+    "id": "df3d9b15f2f799e6",
     "type": "split",
     "children": [
       {
-<<<<<<< Updated upstream
-        "id": "53c1cf937ce79ec5",
+        "id": "bcf858c55d1cc2a2",
         "type": "tabs",
         "children": [
           {
-            "id": "f96ed70fcdaaba68",
-=======
-        "id": "903066ce9f2fb4de",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d2224b97197dd439",
->>>>>>> Stashed changes
+            "id": "4a8eecdf7ed08399",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-<<<<<<< Updated upstream
-                "file": "VIN/FINAL.md",
-=======
-                "file": "README.md",
->>>>>>> Stashed changes
-                "mode": "source",
-                "source": false
+                "file": "VIN_DN1-LIDAR_oddaja.pdf"
               }
             }
           }
@@ -37,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d4d41b73c6e1354d",
+    "id": "cb2007a7e1c97177",
     "type": "split",
     "children": [
       {
-        "id": "88e916fc5704404f",
+        "id": "b000fd03f63b8a1d",
         "type": "tabs",
         "children": [
           {
-            "id": "b2796273de0ae017",
+            "id": "4d0a612c925643a2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,7 +41,7 @@
             }
           },
           {
-            "id": "9a0d1ce22bcbda8f",
+            "id": "1dad9d0a367d87d2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -70,7 +56,7 @@
             }
           },
           {
-            "id": "966f0653318a4f02",
+            "id": "e285e159f0266263",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -81,27 +67,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "cfb8bc810116404e",
+    "id": "007cc81fefd01262",
     "type": "split",
     "children": [
       {
-        "id": "74f22ae9c1019daf",
+        "id": "9dabee4f26473156",
         "type": "tabs",
         "children": [
           {
-            "id": "27a036ffad9232fa",
+            "id": "33bb243c55416c44",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "VIN/FINAL.md",
-=======
-                "file": "README.md",
->>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,23 +94,18 @@
             }
           },
           {
-            "id": "9f6af60b5bd03361",
+            "id": "0eea41b908b1006b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "VIN/FINAL.md",
-=======
-                "file": "README.md",
->>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7d8dbe90ec69d41d",
+            "id": "b4859102e3b944f6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -140,17 +116,11 @@
             }
           },
           {
-            "id": "0d7e5394c7d91126",
+            "id": "971e19bc5a22a933",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-<<<<<<< Updated upstream
-                "file": "VIN/FINAL.md"
-=======
-                "file": "README.md"
->>>>>>> Stashed changes
-              }
+              "state": {}
             }
           }
         ]
@@ -170,42 +140,14 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "f96ed70fcdaaba68",
+  "active": "4d0a612c925643a2",
   "lastOpenFiles": [
-    "VIN/Apliciranje LiDAR sistema.md",
-    "VIN/FINAL.md",
-    "VIN/images/sea-floor.png",
-=======
-  "active": "d2224b97197dd439",
-  "lastOpenFiles": [
-    "FINAL.pdf",
+    "VIN_DN1-LIDAR_oddaja.pdf",
+    "README 1.pdf",
     "README.md",
-    "VIN/DN1 - LIDAR.md",
-    "VIN/FINAL.md",
     "VIN/Apliciranje LiDAR sistema.md",
-    "VIN/images/Pasted image 20230402213228.png",
->>>>>>> Stashed changes
-    "VIN/images/Pasted image 20230402212629.png",
-    "VIN/images/ai-cars.png",
     "VIN/Arhitektura in tehnologije.md",
-    "README.md",
-    "FINAL.pdf",
-    "VIN/images/bistatic_measuring.png",
-    "VIN/images/D-flipflop-counter.png",
-    "VIN/images/laser_diode.png",
-    "VIN/images/photoelectric.png",
-    "VIN/images/shema_krmilnika.png",
-    "VIN/images/what-is-a-lidar-part-1-9.jpg",
-    "VIN/images/lidar_on_car2.jpg",
-    "VIN/Povezava.md",
-    "VIN/Primeri uporabe.md",
-    "VIN/Aplikacija LiDAR sistemov.md",
-    "VIN/Predstavitev naprave.md",
-    "VIN/Opis delovanja.md",
-    "VIN/images/bistatic_measuring.png.md",
-    "VIN/DN1_-_LIDAR.md",
-    "VIN",
-    "PNS/13.2 - 1..md"
+    "VIN/FINAL.md",
+    "FINAL.pdf"
   ]
 }
