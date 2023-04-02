@@ -38,9 +38,9 @@ Detektor v LIDAR sistemu je neke vrste fotoelektrična celica, ki je oblikovana 
 
 Skener je tipično sestavljen iz ogledala, ki usmerja laserski žarek in s tem omogoča pokritje širokega območja. S skenerjem upravlja motor, ki rotira ogledalo s konstantno hitrostjo oz. z specifičnim vzorcem. Ko se ogledalo rotira usmerja žarek v različna območja okolja. Nekateri LIDAR sistemi uporabljajo več skenerjev oz. ogledal, da pokrijejo še širše območje ali pa povečajo gostoto točk. S tem tudi izboljšajo natančnost meritev.
 
-![](/VIN/images/lidar-laser-scanning-mirror.gif)
+![center](/VIN/images/lidar-laser-scanning-mirror.gif)
 
-![](/VIN/images/hornbeck-dlp-micro-mirror.png)
+![center](/VIN/images/hornbeck-dlp-micro-mirror.png)
 
 # Predstavitev naprave
 
