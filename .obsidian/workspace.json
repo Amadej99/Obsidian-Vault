@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VIN/FINAL.md",
+                "file": "VIN/Apliciranje LiDAR sistema.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VIN/FINAL.md",
+                "file": "VIN/Apliciranje LiDAR sistema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VIN/FINAL.md",
+                "file": "VIN/Apliciranje LiDAR sistema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VIN/FINAL.md"
+                "file": "VIN/Apliciranje LiDAR sistema.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "f96ed70fcdaaba68",
   "lastOpenFiles": [
-    "VIN/Arhitektura in tehnologije.md",
     "VIN/FINAL.md",
+    "FINAL.pdf",
+    "VIN/Arhitektura in tehnologije.md",
     "VIN/images/bistatic_measuring.png",
     "VIN/images/D-flipflop-counter.png",
     "VIN/images/laser_diode.png",
