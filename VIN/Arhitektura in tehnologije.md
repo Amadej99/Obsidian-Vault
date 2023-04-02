@@ -13,15 +13,17 @@ TODO:
 LiDAR sistem je konstruiran iz oddajnika in sprejemnika svetlobe, ter računalnika, 
 ki pretvori dobljene podatke v uporabno informacijo.
 
-##### Oddajnik svetlobe
-Katera laser dioda, vrste diod
+##### Oddajnik  ![right](laser_diode.png)
+Pri oddajnikih se uporablja PLD (*pulsed laser diode*) diode.
+Širina pulzev takih diod je bila okrog 5 - 10ns. Novejše diode omogočajo pulzne širine tudi do 2ns. Hitrejše vzorčenje diode pomeni večjo ločljivost in boljši *"refresh rate"*, kar pomeni hitrejše zaznavanje okolice.
 
 
-##### Sprejemnik svetlobe
+
+##### Sprejemnik 
 Explain photoelectric effect
 
 
-##### Procesni del
+##### Procesni del / detektor
 Kateri čip, posebni counterji
 
 
@@ -31,40 +33,30 @@ Kateri čip, posebni counterji
 
 #### Konfiguracija LiDAR-ja   ![right](images/bistatic_conf.png)
 ##### Bistatična 
-Delovanje po istem principu kot bistatični radar.
-Oddajnik in sprejemnik sta ločeni napravi, ki sta nameščeni na različnih mestih. Računanje razdalje deluje kot pri bistatičnem radarju.
+Oddajnik in sprejemnik sta ločeni napravi, ki sta nameščeni na različnih mestih. Oddajnik in sprejemnik morata biti optično kalibrirana, da se žarek odda pod pravilnim kotom, da ga lahko sprejemnik zazna. Oziroma sprejemnik zazna le objekte, ki so na presečišču kretnic, po katerih potuje žarek.
+$$d = \frac{c \cdot (t_{1} + t_{2})}{2}$$
+$d\;...\;distance$
+$c\;...\;koeficient\;hitrosti\;svetlobe$
+$t_{1}\;...\;čas\;potovanja\;svetlobe\;od\;oddajnika\;do\;tarče$
+$t_{2}\;...\;čas\;potovanja\;svetlobe\;od\;tarče\;do\;sprejemnika$
 
-
-
-
-
-Primer:
-Bistatičen LiDAR sistem za določanje onesnaženja letalskih območij:
-Oddajnik oddaja žarke na dveh v naprej določenih valovnih frekvencah.
-Prva $\lambda_{ON}$
 
  ![right](images/monostatic_byme.png)
 ##### Monostatična
-
 Samostojna optična naprava, ki hkrati oddaja in sprejema laserske žarke.
 Merjenje razdalje se računa z časovnim intervalom, v katerem žarek oddajnika potuje do tarče, se od nje odbije in ponovi isto pot do sprejemnika.
 $$d = \frac{c \cdot t}{2}$$
+$t\;...\;čas\;potovanja\;svetlobe\;do\;tarče\;in\;nazaj$
+
 Ker sta oddajnik in sprejemnik vgrajena v isto napravo, sta nameščena blizu
 eden drugega, zato se dajlici poti oddajnika in sprejemnika prekrivata. 
-Prekrivanje oddanega in odbitega žarka se rešuje z prekinjenim oddajanjem laserskega oddajnika.
+Prekrivanje oddanega in odbitega žarka je rešeno tako, da oddajnik počaka dokler sprejemnik ne prejme odbitega pulza. 
 
-
-
-#### Ureditev komponent 
-
-##### Biaksialna ureditev ![center](images/biaxial_arng.png)
-Laserski oddajnik in sprejemnik sta ločena.
-Laserski žarek oddajnika, vstopi v vidno polje sprejemnika le na določeni razdaliji
-
-
-
-##### Koaksialna ureditev ![center](images/coaxial_arng.png)
-Laserski žarek sovpada z optiko sprejemnika.
+##### Biaksialni in koaksialni LiDAR
+To pomeni, da lahko napravo namestimo na platvormo ki se lahko giblje v dveh, ali eni osi.
+Z biaksialnim LiDAR-jem lahko izmerimo celotno okolico (pitch in yaw osi pokrijeta vse točke okoli središča) in kreiramo natančno virtualno mapo okolice.
+Koaksialni LiDAR je po navadi uporabljen v implementaciji s kamerami in podaja podatek
+o globini.
 
 
 
