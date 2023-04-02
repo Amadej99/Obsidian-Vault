@@ -1,4 +1,4 @@
-Spekter za aplikacij z LiDAR-jem je ekstremno širok
+Spekter za aplikacij z LiDAR-jem je ekstremno širok, od splošnih, do zelo specifičnih implementacij. Najbolj znane so:
 
 ##### Avtonomna vozila![right](images/ai-cars.png)
 Najpogosteje se uporablja v implementaciji s kamero za informacijo o globini.
@@ -19,6 +19,5 @@ Uporabljeni so laserski žarki zelenega spektra svetlobe (532nm), saj svetloba t
 
 ##### Merjenje delcev v zraku
 Pridobivanje informacij o onesnaženju zraka, z analizo razpršitve odboja svetlobe, ko žarek zadane delce v zraku. Z meritvami intenzivnosti odbitega žarka lahko ugotovimo velikost, obliko in koncentracijo delcev v zraku.
-
 
 
