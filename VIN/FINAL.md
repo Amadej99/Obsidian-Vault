@@ -121,7 +121,7 @@ eden drugega, zato se dajlici poti oddajnika in sprejemnika prekrivata.
 Prekrivanje oddanega in odbitega žarka je rešeno tako, da oddajnik počaka dokler sprejemnik ne prejme odbitega pulza. 
 
 ##### Biaksialni in koaksialni LiDAR
-To pomeni, da lahko napravo namestimo na platvormo ki se lahko giblje v dveh, ali eni osi.
+To pomeni, da lahko napravo namestimo na platformo ki se lahko giblje v dveh, ali eni osi.
 Z biaksialnim LiDAR-jem lahko izmerimo celotno okolico (pitch in yaw osi pokrijeta vse točke okoli središča) in kreiramo natančno virtualno mapo okolice.
 Koaksialni LiDAR je po navadi uporabljen v implementaciji s kamerami in podaja podatek
 o globini.

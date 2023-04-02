@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "903066ce9f2fb4de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2224b97197dd439",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VIN/FINAL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,22 +164,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f96ed70fcdaaba68",
+  "active": "b2796273de0ae017",
   "lastOpenFiles": [
     "VIN/FINAL.md",
+    "VIN/Apliciranje LiDAR sistema.md",
     "FINAL.pdf",
+    "README.md",
+    "VIN/images/Pasted image 20230402213228.png",
+    "VIN/images/Pasted image 20230402212629.png",
     "VIN/Arhitektura in tehnologije.md",
     "VIN/images/bistatic_measuring.png",
     "VIN/images/D-flipflop-counter.png",
     "VIN/images/laser_diode.png",
     "VIN/images/photoelectric.png",
     "VIN/images/shema_krmilnika.png",
-    "VIN/Apliciranje LiDAR sistema.md",
     "VIN/images/what-is-a-lidar-part-1-9.jpg",
     "VIN/images/lidar_on_car2.jpg",
     "VIN/images/lidar-laser-scanning-mirror.gif",
-    "VIN/images/hornbeck-dlp-micro-mirror.png",
-    "VIN/images/d5f2c0bc53c2419d850b1b979662efe5.jpg",
     "VIN/Povezava.md",
     "VIN/Primeri uporabe.md",
     "VIN/Aplikacija LiDAR sistemov.md",
