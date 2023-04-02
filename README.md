@@ -156,8 +156,7 @@ Za programsko povezavo se uporabljajo knjižnice, ki so bile razvite za delo z L
 
 # Zaključek
 
-Lidar je tehnologija ki omogoča 3D skeniranje okolice. Deluje z merjenjem odboja laserjev od okolice s pomočjo principa časa letenja. 
-
+LIDAR je tehnologija 3D kartiranja, ki pomeni "zaznavanje svetlobe in merjenje razdalje". Sistem LIDAR deluje tako, da v vse smeri izstreljuje nevidne laserske žarke, lovi njihove odboje in meri, koliko časa traja, da se žarki vrnejo, da lahko ugotovi, katere ovire so v bližini in kako daleč so. Ta tehnologija v realnem času ustvari 3D zemljevid okolja okoli senzorja LIDAR, kar je zelo uporabno za avtonomne robote in samovozeče avtomobile. LIDAR se uporablja za kartiranje obalnih območij, merjenje krčenja gozdov in izdelavo podrobnih zračnih zemljevidov Zemlje ali ozračja. To tehnologijo je pogosto hitreje in lažje pretvoriti v zemljevid za navigacijo kot kamere, zato je idealna izbira za avtonomne stroje.
 # Viri
 
 https://www.explainthatstuff.com/lidar.html
