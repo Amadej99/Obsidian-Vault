@@ -1,3 +1,4 @@
+
 # Uvod
 
 LIDAR (Light Detection and Ranging) je tehnologija oddaljenega zaznavanja, ki uporablja lasersko svetlobo za merjenje razdalj in ustvarjanje 3D kart terena. Osnovno delovno načelo LIDAR-ja je podobno kot pri radarski tehnologiji, vendar namesto radijskih valov uporablja lasersko svetlobo za zaznavanje predmetov in njihove razdalje.
@@ -152,3 +153,11 @@ V večini primerov se senzor priključi na različne platforme in programska oro
 Najpogosteje je uporabljen standardni USB vmesnik, ki z naloženimi ustreznimi gonilniki omogoča preprosto in zanesljivo povezavo z napravo. Pri USB povezavi, uporabimo virtualni COM port, ki ga ustvari operacijski sistem. Nato napišemo kodo, s katero prek USB povezave pošiljamo in sprejemamo podatke senzorja.
 
 Za programsko povezavo se uporabljajo knjižnice, ki so bile razvite za delo z Lidar senzorjem. Obstajajo razne knjižnice za različne programske jezike, kot so Python, C++, C, java, MATLAB itd. Te omogočajo preprosto uporabo senzorja z predhodno določenimi funkcijami, vključenimi v knjižnico.
+
+# Zaključek
+
+Lidar je tehnologija ki omogoča 3D skeniranje okolice. Deluje z merjenjem odboja laserjev od okolice s pomočjo principa časa letenja. 
+
+# Viri
+
+https://www.explainthatstuff.com/lidar.html

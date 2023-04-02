@@ -1,4 +1,8 @@
 {
   "accentColor": "",
-  "cssTheme": "Obsidian gruvbox"
+  "cssTheme": "Obsidian gruvbox",
+  "enabledCssSnippets": [
+    "image_alignments",
+    "line_width"
+  ]
 }
