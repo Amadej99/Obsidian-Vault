@@ -166,6 +166,11 @@ LIDAR je tehnologija 3D kartiranja, ki pomeni "zaznavanje svetlobe in merjenje r
 # Viri
 
 [1]LIDAR by Chris Woodford July 10, 2021. https://www.explainthatstuff.com/lidar.html
-[2]Open lidar API January 5, 2022. https://www.embedded.com/open-lidar-api-aims-to-accelerate-software-defined-lidar-adoption/ [3]Communication Protocol Manual for N301 LIDAR. https://globalgpssystems.com/wp-content/uploads/2021/06/N301-protocal-Manual-V3.0.pdf [4]SLAMTEC LIDAR 360 Degree Laser Range Scanner Interface Protocol and Application Notes,202 2-4-22 https://bucket-download.slamtec.com/be76242eb19f992b78e1ddd22ebbeb086337e7c2/SLAMTEC_rplidarkit_protocol_S2E_v1.0_en.pdf
-[5] Pulsed Laser Diode Driver Circuit Layout for Lidar https://resources.altium.com/p/pulsed-laser-diode-driver-circuit-layout-for-lidar [6] Wikipedia: Lidar (2023) https://en.wikipedia.org/wiki/Lidar [7] EksplainStuff: Lidar https://www.explainthatstuff.com/lidar.html [8] What is LiDAR and how does it work (2019) https://circuitdigest.com/article/what-is-lidar-and-how-does-lidar-works
+[2]Open lidar API January 5, 2022. https://www.embedded.com/open-lidar-api-aims-to-accelerate-software-defined-lidar-adoption/ 
+[3]Communication Protocol Manual for N301 LIDAR. https://globalgpssystems.com/wp-content/uploads/2021/06/N301-protocal-Manual-V3.0.pdf 
+[4]SLAMTEC LIDAR 360 Degree Laser Range Scanner Interface Protocol and Application Notes,202 2-4-22 https://bucket-download.slamtec.com/be76242eb19f992b78e1ddd22ebbeb086337e7c2/SLAMTEC_rplidarkit_protocol_S2E_v1.0_en.pdf
+[5] Pulsed Laser Diode Driver Circuit Layout for Lidar https://resources.altium.com/p/pulsed-laser-diode-driver-circuit-layout-for-lidar 
+[6] Wikipedia: Lidar (2023) https://en.wikipedia.org/wiki/Lidar 
+[7] EksplainStuff: Lidar https://www.explainthatstuff.com/lidar.html 
+[8] What is LiDAR and how does it work (2019) https://circuitdigest.com/article/what-is-lidar-and-how-does-lidar-works
 
