@@ -1,4 +1,4 @@
-# Uvod
+### Uvod
 
 LIDAR (Light Detection and Ranging) je tehnologija oddaljenega zaznavanja, ki uporablja lasersko svetlobo za merjenje razdalj in ustvarjanje 3D kart terena. Osnovno delovno načelo LIDAR-ja je podobno kot pri radarski tehnologiji, vendar namesto radijskih valov uporablja lasersko svetlobo za zaznavanje predmetov in njihove razdalje.
 
@@ -14,6 +14,12 @@ LIDAR (Light Detection and Ranging) je tehnologija oddaljenega zaznavanja, ki up
 Roboti iz tega razloga gledajo v svet skozi drugačno napravo, ki ji pravimo LIDAR. Medtem ko kamera posname eno 2D fotografijo slike, naredi LIDAR milijone meritev globine v vse smeri naenkrat. Pogosto je take podatke hitreje spremeniti v zemljevid, ki ga lahko robot uporablja za navigacijo.
 
 ![[lidar_on_car2.jpg]]
+
+### Razvoj
+
+Podjetje Hughes Aircraft Company je prvi LIDAR sistem predstavilo leta 1961, kmalu po izumu laserja. Sistem, sprva namenjen sledenju satelitom, je imel zmožnost računati razdalje prek principa časa letenja. Takrat je bil imenov Colidar, akronim za "coherent light detecting and ranging", izviral pa je iz besede "radar". Vsi laserski merilci razdalj, altimetri in LIDAR sistemi izvirajo iz prvotnih colidar sistemov. 
+
+Prva aplikacija tako imenovanega sistema LIDAR je bila na področju meterologije in sicer za merjenje oblakov in zračnega onesnaževanja. Bolj poznan javnosti je postal leta 1971 med Apollo 15 misijo, ko so ga astronavti uporabili kot altimeter za raziskovanje površja lune.
 
 ## Iz česa je sestavljen LIDAR sistem
 
