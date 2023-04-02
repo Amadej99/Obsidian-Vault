@@ -13,8 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "VIN/FINAL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75f0a3115d112e29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "VIN/Predstavitev naprave.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VIN/Predstavitev naprave.md",
+                "file": "VIN/FINAL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VIN/Predstavitev naprave.md",
+                "file": "VIN/FINAL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VIN/Predstavitev naprave.md"
+                "file": "VIN/FINAL.md"
               }
             }
           }
@@ -148,16 +160,21 @@
   },
   "active": "9bbb99d08679757a",
   "lastOpenFiles": [
-    "VIN/DN1 - LIDAR.md",
+    "2023-04-02.md",
+    "VIN/FINAL.md",
+    "what-is-a-lidar-part-1-9.jpg",
+    "VIN/Predstavitev naprave.md",
     "VIN/Opis delovanja.md",
+    "VIN/Primeri uporabe.md",
+    "d5f2c0bc53c2419d850b1b979662efe5.jpg",
+    "51f9lyDUTdL.jpg",
+    "VIN/DN1 - LIDAR.md",
+    "VIN/images/LiDAR-scan-3-600px.webp",
     "VIN/images/8aqnshh5.bmp",
     "VIN/Arhitektura in tehnologije.md",
-    "VIN/Primeri uporabe.md",
     "VIN/images/hornbeck-dlp-micro-mirror.png",
     "VIN/images/lidar-laser-scanning-mirror.gif",
-    "VIN/Predstavitev naprave.md",
     "VIN/DN1_-_LIDAR.md",
-    "VIN/images/LiDAR-scan-3-600px.webp",
     "VIN/images/lidar_on_car2.jpg",
     "VIN",
     "PNS/13.2 - 1..md"
