@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2fa9fab445696a83",
+        "id": "53c1cf937ce79ec5",
         "type": "tabs",
         "children": [
           {
-            "id": "161aeb7b4dff3c48",
+            "id": "f96ed70fcdaaba68",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "VIN/FINAL.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "VIN/FINAL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "VIN/FINAL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "VIN/FINAL.md"
+              }
             }
           }
         ]
@@ -138,24 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2796273de0ae017",
+  "active": "f96ed70fcdaaba68",
   "lastOpenFiles": [
+    "VIN/Arhitektura in tehnologije.md",
+    "VIN/FINAL.md",
+    "VIN/images/bistatic_measuring.png",
+    "VIN/images/D-flipflop-counter.png",
+    "VIN/images/laser_diode.png",
+    "VIN/images/photoelectric.png",
+    "VIN/images/shema_krmilnika.png",
     "VIN/Apliciranje LiDAR sistema.md",
     "VIN/images/what-is-a-lidar-part-1-9.jpg",
     "VIN/images/lidar_on_car2.jpg",
     "VIN/images/lidar-laser-scanning-mirror.gif",
     "VIN/images/hornbeck-dlp-micro-mirror.png",
     "VIN/images/d5f2c0bc53c2419d850b1b979662efe5.jpg",
-    "VIN/images/LiDAR-scan-3-600px.webp",
-    "VIN/images/8aqnshh5.bmp",
-    "VIN/images/51f9lyDUTdL.jpg",
     "VIN/Povezava.md",
-    "VIN/FINAL.md",
     "VIN/Primeri uporabe.md",
-    "VIN/Arhitektura in tehnologije.md",
     "VIN/Aplikacija LiDAR sistemov.md",
-    "VIN/images/D-flipflop-counter.png",
-    "Pasted image 20230402201907.png",
     "VIN/DN1 - LIDAR.md",
     "VIN/Predstavitev naprave.md",
     "VIN/Opis delovanja.md",
