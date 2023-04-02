@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VIN/Opis delovanja.md",
-                "mode": "preview",
+                "file": "VIN/Arhitektura in tehnologije.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VIN/Opis delovanja.md",
+                "file": "VIN/Arhitektura in tehnologije.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VIN/Opis delovanja.md",
+                "file": "VIN/Arhitektura in tehnologije.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VIN/Opis delovanja.md"
+                "file": "VIN/Arhitektura in tehnologije.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "9bbb99d08679757a",
   "lastOpenFiles": [
+    "VIN/Opis delovanja.md",
     "hornbeck-dlp-micro-mirror.png",
     "lidar-laser-scanning-mirror.gif",
     "VIN/Predstavitev naprave.md",
-    "VIN/Opis delovanja.md",
     "VIN/DN1_-_LIDAR.md",
     "8aqnshh5.bmp",
     "LiDAR-scan-3-600px.webp",
