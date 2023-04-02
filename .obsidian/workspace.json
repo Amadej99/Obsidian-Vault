@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d9bc443115076502",
+        "id": "523c531e5744564b",
         "type": "tabs",
         "children": [
           {
-            "id": "9bbb99d08679757a",
+            "id": "fa5797e20d6b2ab8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VIN/FINAL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75f0a3115d112e29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VIN/Predstavitev naprave.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VIN/FINAL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VIN/FINAL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "VIN/FINAL.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,16 +138,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9bbb99d08679757a",
+  "active": "fa5797e20d6b2ab8",
   "lastOpenFiles": [
+    "VIN/images/51f9lyDUTdL.jpg",
     "2023-04-02.md",
     "VIN/FINAL.md",
-    "what-is-a-lidar-part-1-9.jpg",
+    "VIN/images/what-is-a-lidar-part-1-9.jpg",
     "VIN/Predstavitev naprave.md",
     "VIN/Opis delovanja.md",
     "VIN/Primeri uporabe.md",
-    "d5f2c0bc53c2419d850b1b979662efe5.jpg",
-    "51f9lyDUTdL.jpg",
+    "VIN/images/d5f2c0bc53c2419d850b1b979662efe5.jpg",
     "VIN/DN1 - LIDAR.md",
     "VIN/images/LiDAR-scan-3-600px.webp",
     "VIN/images/8aqnshh5.bmp",
