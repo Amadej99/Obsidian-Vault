@@ -100,3 +100,6 @@ Datasheets to gain info about components, protocols etc comonly used:
 - https://www.mouser.com/datasheet/2/612/Intel_RealSense_LiDAR_L515_Datasheet_Rev002-1713847.pdf
 - https://globalgpssystems.com/wp-content/uploads/2021/06/N301-protocal-Manual-V3.0.pdf
 - https://bucket-download.slamtec.com/be76242eb19f992b78e1ddd22ebbeb086337e7c2/SLAMTEC_rplidarkit_protocol_S2E_v1.0_en.pdf
+
+Last day:
+- https://resources.altium.com/p/pulsed-laser-diode-driver-circuit-layout-for-lidar

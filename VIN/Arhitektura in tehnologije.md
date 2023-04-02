@@ -1,15 +1,3 @@
-```ToDo
-TODO:
-- Opiši vsak del (laserdiodo, katere se uporabljajo, fotoelektrični senzor)
-	- Opiši hardware vsakega dela 
-- konfiguracija (bistatic, monostatic)
-	- monostatic polarizacija
-- biaxial, coaxial can we have biaxial monostatic lidar?
-- kako poteka prenos podatkov med komponentami
-- fraunhofer lines ??
-```
-
-
 LiDAR sistem je konstruiran iz oddajnika in sprejemnika svetlobe, ter računalnika, 
 ki pretvori dobljene podatke v uporabno informacijo.
 
@@ -17,18 +5,38 @@ ki pretvori dobljene podatke v uporabno informacijo.
 Pri oddajnikih se uporablja PLD (*pulsed laser diode*) diode.
 Širina pulzev takih diod je bila okrog 5 - 10ns. Novejše diode omogočajo pulzne širine tudi do 2ns. Hitrejše vzorčenje diode pomeni večjo ločljivost in boljši *"refresh rate"*, kar pomeni hitrejše zaznavanje okolice.
 
+Najpogosteje se uporablja laserje dolžine 600-1000nm maksimalna moč laserjev je omejena, da so naprave varne za oči.
+Nihče noče biti v situaciji, ko se mimo zapelje nova tesla in ti skuri oči.
 
+Laserji valovnih dolžin 1550nm so močni in še vedno varni za oči, detektorji za to tehnologijo še niso dovolj razviti in ne ponujajo toliko natančnosti. Ta tehnologija se uporablja tudi v vojski saj žarki valovne širine 1550nm niso vidni z očali za nočni vid, za razliko od 1000nm infrardečih žarkov.
+
+LiDAR-ji na letalih uporabljajo 1064nm laserje, medtem ko LiDAR sistemi za mapiranje morskega dna uporabljajo laserje valovne dolžine 532nm, ki boljše potujejo pod vodo.
+
+PLD diode v LiDAR-jih so krmiljene z visoko napetostnimi low duty cycle PWM pulzi, 
+(po navadi okoli 1% duty cycle-a pri več 100kHz), da je dosežena širina pulza 100ns ali manj.
+![](shema_krmilnika.png)
 
 ##### Sprejemnik 
-Explain photoelectric effect
+Sprejemnik vsebuje svetlobno tipalo, za LiDAR sta glavni uporabljeni tehnologiji 
+- solid-state fotodetektor oz fotodioda, polprevodnik, ki pretvori svetlobo v električni tok po   fotoelektričnem efektu.
+- fotomultiplikator, vakumska cev z fotokatodo, anodo in dynodami. Ko foton zadane fotokatodo, ta izpusti elektorn, ki je potem pospešen proti dynodam zaradi visoke napetosti med fotokatodo in prvo dynodo. Ko zadane dynodo, ta izpusti več elektronov in tako dalje.
+Potrebno je upoštevati svetlobni šum iz okolice in primerno nastaviti senzitivnost sprejemnika.
+
+**Fotoelektrični efekt:**![right](photoelectric.png)
+Zgodi se ko je material izpostavljen elektromagnetnemu sevanju (svetlobi).
+
+*Na grobo:*
+Fotoni v žarku svetlobe imajo karakteristično energijo (fotonsko energijo), ko elektron v materialu absorbira energijo fotona, lahko tako dobi dovolj energije, da je "izstreljen" iz atoma.
 
 
 ##### Procesni del / detektor
-Kateri čip, posebni counterji
+Potrebno je obdelati enormno število točk razdalje.
+Za računanje razdalje se uporablja vezje, v LiDAR sistemih je to TDC vezje, ki vsebuje števec in pretvori časovne intervale v digitalne signale. ![right](D-flipflop-counter.png)
 
-
+Števec konstantno meče ven točke razdalij, iz katerih se sestavlja "point cloud", da se lahko kreira 3D reprezentacija okolice.
 
 ##### Prenos podatkov
+Za prenos "point clouda" do CPU-ja na računalniku ali namenskem krmilniku, kjer so podatki procesirani in prikazani, se uporabljajo različni protokoli. Najpogosteje so uporabljeni Ethernet, CAN, in USB
 
 
 #### Konfiguracija LiDAR-ja   ![right](images/bistatic_conf.png)
